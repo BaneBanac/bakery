@@ -1,0 +1,28 @@
+.color {
+    &-white{
+        color: $white;
+    }
+}
+
+
+.display-1{
+    font-size: 15rem;
+    display: block;
+}
+
+.h3{
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.h6, h6{
+    font-size: 1.5rem;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.h5, h5{
+    font-size: 1.9rem;
+}
