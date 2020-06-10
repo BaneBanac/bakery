@@ -84,7 +84,11 @@
     flex-grow: 1;
   }
   &__img {
-    height: 20rem;
+   height: 10rem;
+  }
+
+  &__box-1-4{
+    width: 20%;
   }
 
   &__box-1-2 {
@@ -172,3 +176,19 @@
    
 }
 
+.about{
+  background-image: url(../images/novo-2.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__image{
+  
+    height: 40%;
+ 
+}
